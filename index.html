@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLD GAMES - Sign up</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>About us</li>
+                <li>Portfolio</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="reg">
+            <h1>COLD GAMES ONLINE CORPORATION</h1>
+    <form action="data_collect.php">
+        <div>
+        <label for="first_name">First name</label>
+        <input type="text" id="first_name" name="firstname" placeholder="Type in your first name">
+        </div>
+        <div>
+        <label for="last_name">Last name</label>
+        <input type="text" id="last_name" name="lastname" placeholder="Type in your last mame">
+        </div>
+        <div><label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Type in your email address" required></div>
+        <label for="cpassword">Password</label>
+        <input type="password" id="cpassword" name="cpassword" placeholder="Type in your password"><br>
+        <label for="password">Confirm Password</label>
+        <input type="password" id="password" name="password" placeholder="Confirm your password"><br>
+        <label for="date">Date of Birth</label>
+        <input type="date" id="date" name="date" required><br>
+        <label for="file">Photo Id</label>
+        <input type="file" id="file" name="file"><br>
+        Gamer
+        <label><input type="radio" id="gamer" name="gamer" value="Yes">Yes</label>
+      <input type="radio" id="gamer" name="gamer" value="No">No<br>If yes, select Game<br>
+        <label><input type="checkbox" name="games" value="FC24">FC24</label><br>
+        <label><input type="checkbox" name="games" value="PES24">PES24</label><br>
+        <label><input type="checkbox" name="games" value="COD">COD</label><br>
+        <label><input type="checkbox" name="games" value="Injustice">Injustice</label><br>
+        <label>How good are you at gaming?</label>
+        <input type="range" min="0" max="100" name="points"><br>
+        <label for="Bio">Bio</label><br>
+        <textarea id="Bio" name="comments" rows="4" cols="50" placeholder="Tell us about your gaming life"></textarea></textarea><br>
+        <label for="country">Select Gaming Location</label>
+        <select id="country" name="country">
+            <option value="">--Select Country--</option>
+            <option value="us">United States</option>
+            <option value="ca">Canada</option>
+            <option value="ng">Nigeria</option>
+        </select><br>
+        <input type="submit" value="Let's Go">
+    </form>
+    Or Sign up with
+    <a href="https://accounts.google.com" target="_blank"><img src="icon.png" alt="" width="10px"></a>
+        </section>
+    </main>
+   
+    <footer>
+        <p>&copy 2024 C.O.L.Designz|Designed by <a href="https://darlculus.com" target="_blank">Darlculus</a></p>
+    </footer>
+</body>
+</html>
+
